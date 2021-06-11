@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: #F9F9F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input:focus {
+  outline: none;
+}
+/* Main box */
+.box {
+  width: 500px;
+  height: 600px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+.box .draw-box {
+  height: 300px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box .draw-box h3 {
+  margin-top: 15px;
+}
+.box .form-box {
+  padding-left: 25px;
+}
+.box .form-box .input-box input{
+  display: block;
+  width: 120px;
+  padding: 13px 10px;
+  border: 1px solid #43425D;
+  color: #43425D;
+  font-size: 16px;
+  border-radius: 7px;
+
+}
+.box .form-box .input-box label{
+  position: relative;
+  top: 8px;
+  left: 9px;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  color: #43425D;
+  padding: 0 3px;
+}
+.box .form-box button {
+  display: block;
+  border: none;
+  cursor: pointer;
+  background: #43425D;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.box .form-box button:hover {
+  background-color: #36354A;
+  color: #f2f2f2;
+}
+/* Triangle types */
+.triangle-equilateral {
+  border: 150px solid transparent;
+  border-bottom: 170px solid #d4d2d2;
+  border-top: 0;
+}
+.triangle-isosceles {
+  border: 70px solid transparent;
+  border-bottom: 170px solid #d4d2d2;
+  border-top: 0;
+}
+.triangle-scalene {
+  border: 70px solid transparent;
+  border-bottom: 170px solid #d4d2d2;
+  border-right: 180px solid transparent;
+  border-top: 0;
+}
