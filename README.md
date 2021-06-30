@@ -1,2 +1,3 @@
 # Triangle calculactor
-This triangle calculator is Task 3
+This is a triangle calculator 
+
